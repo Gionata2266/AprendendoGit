@@ -1,5 +1,30 @@
-esta certo ( git init ) === cria pasta git começar o trabalho
-( git add . ) === começa a ratrear as pastas que estão no caminho
-( git commit -m "Feat: ajuste" ) === inicia o envio dos arquivos para repositorio git
+1( git init ) === cria pasta git começar o trabalho
+
+
+2( git add . ) === começa a ratrear as pastas que estão no caminho
+
+
+3( git commit -m "Feat: ajuste" ) === inicia o envio dos arquivos para repositorio git
+
+
+4( git remote add origin https://github.com/Gionata2266) ===→ diz onde está o repositório remoto no Github para se conectar
+
+
+5(git branch -M main) === garante que sua branch tenha o nome main 
+
+
+6(git push -u origin main) === envia e cria uma ligação agora aparece as branch agr so precisa (git push) não precisa de -u origin main
+
+
 ( git push ) === envia as alterações para o repositorio no Github
+
+
 ( rmdir /s /q .git ) === exclui qualquer pasta depois de /q.. /s remove todas as pastas dentro de .git /q não pergunta nd
+
+
+( git restore GitComandos.txt ) === se tiver  dado um git add voce pode restaurar os arquivos que apagou
+
+////////////////////////////////////////Criar Nova Branch//////////////////////////////////////////////////////
+(git checkout -b develop) === cria branch localmente e muda para ela
+
+(git push -u origin develop) === envia a branch para o Github
