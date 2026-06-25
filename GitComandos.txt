@@ -1,0 +1,5 @@
+esta certo ( git init ) === cria pasta git começar o trabalho
+( git add . ) === começa a ratrear as pastas que estão no caminho
+( git commit -m "Feat: ajuste" ) === inicia o envio dos arquivos para repositorio git
+( git push ) === envia as alterações para o repositorio no Github
+( rmdir /s /q .git ) === exclui qualquer pasta depois de /q.. /s remove todas as pastas dentro de .git /q não pergunta nd
