@@ -28,3 +28,11 @@
 (git checkout -b develop) === cria branch localmente e muda para ela
 
 (git push -u origin develop) === envia a branch para o Github
+
+/////////////////////////////////////////Como Dar Um Merge//////////////////////////////////////////////////////////////
+
+(git checkout main) === Troca para a branch main
+
+(git pull origin main) === pego oque tem ja no github atualiza antes para não dar conflito caso alguem suba algogit
+
+(git merge develop) === pega o conteudo da develop envia para main.... depois so dar um git push
